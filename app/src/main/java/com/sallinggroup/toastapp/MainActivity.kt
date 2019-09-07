@@ -3,6 +3,7 @@ package com.sallinggroup.toastapp
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.sallinggroup.toastmessage.ToastMessage
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-//    public fun buttonClick(view:View):Unit{
-//
-//    }
+    public fun buttonClick(view:View):Unit{
+        ToastMessage.message(this,"Hello Word!")
+    }
 }
