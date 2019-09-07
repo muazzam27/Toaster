@@ -1,7 +1,7 @@
 # Toast Library 
 [![](https://jitpack.io/v/muazzam27/Toaster.svg)](https://jitpack.io/#muazzam27/Toaster)
 
-A simple library to show toast messages in the application.
+A simple library in Kotlin to show toast messages in the application.
 
 Add it to your build.gradle with:
 ```gradle
